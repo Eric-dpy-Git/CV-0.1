@@ -16,6 +16,55 @@ body {
   font-size: 50px;
 }
 
+.fa-html5 {
+  color: rgb(245, 167, 22);
+}
+
+.fa-css3-alt {
+  color: rgb(29, 160, 212);
+}
+
+.fa-sass {
+  color: rgb(224, 129, 185);
+}
+
+.fa-chart-line {
+  color: purple;
+}
+
+.fa-universal-access {
+  color: rgb(24, 71, 24);
+}
+
+.fa-js-square {
+  color: rgb(219, 219, 15);
+}
+
+.fa-arrow-circle-left {
+  color: rgb(24, 71, 24);
+}
+
+.fa-bootstrap {
+  color: rgb(29, 160, 212);
+}
+
+.fa-node-js {
+  color: rgb(122, 230, 122);
+}
+
+.fa-database {
+  color: rgb(209, 209, 209);
+}
+
+.fa-vuejs {
+  color: rgb(13, 241, 13);
+}
+
+.fa-github-square {
+  color: black;
+  margin-bottom: 20px;
+}
+
 header {
   max-width: 1440px;
   min-width: 320px;
@@ -53,7 +102,7 @@ h1 {
   height: 2px;
   border: 0;
   box-shadow: inset 0 6px 6px -6px white;
-  background-color: rgb(247, 228, 96);
+  background-color: rgb(24, 71, 24);
 }
 
 .header__text {
@@ -250,51 +299,6 @@ h1 {
   margin: 0 auto;
 }
 
-.fa-html5 {
-  color: rgb(245, 167, 22);
-}
-
-.fa-css3-alt {
-  color: rgb(29, 160, 212);
-}
-
-.fa-sass {
-  color: rgb(224, 129, 185);
-}
-
-.fa-chart-line {
-  color: purple;
-}
-
-.fa-universal-access {
-  color: rgb(55, 55, 190);
-}
-
-.fa-js-square {
-  color: rgb(219, 219, 15);
-}
-
-.fa-bootstrap {
-  color: rgb(29, 160, 212);
-}
-
-.fa-node-js {
-  color: rgb(122, 230, 122);
-}
-
-.fa-database {
-  color: rgb(209, 209, 209);
-}
-
-.fa-vuejs {
-  color: rgb(13, 241, 13);
-}
-
-.fa-github-square {
-  color: black;
-  margin-bottom: 20px;
-}
-
 .box__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -453,8 +457,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  /*background-color: $primaryDark;*/
-  background-color: rgb(13, 241, 13);
+  background-color: rgb(24, 71, 24);
   animation: sk-foldCubeAngle 3s infinite linear both;
   transform-origin: 100% 100%;
 }
