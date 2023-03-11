@@ -1,11 +1,13 @@
 body {
   font-family: avenir, Verdana, Geneva, Tahoma, sans-serif;
-}
-.page__wrapper {
-  background-color: $primary;
   max-width: 1240px;
   min-width: 360px;
   margin: 0 auto;
+}
+.page__wrapper {
+  background-color: $primary;
+  
+  
 }
 
 .fab,
