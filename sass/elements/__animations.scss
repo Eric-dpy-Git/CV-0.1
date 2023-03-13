@@ -1,8 +1,9 @@
 .spinloader {
-  height: 100%;
   min-width: 360px;
-  max-width: 1240px;
-  /* min-height: 600px; */
+  max-width: 1440px;
+  margin: 0 auto;
+ 
+  padding: 0;
   background: $primaryLight;
   position: absolute;
   z-index: 1000;

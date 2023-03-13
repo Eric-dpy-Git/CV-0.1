@@ -2,9 +2,10 @@
 /* gray #a2a4a6 */
 body {
   font-family: avenir, Verdana, Geneva, Tahoma, sans-serif;
-  max-width: 1240px;
   min-width: 360px;
+  max-width: 1440px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .page__wrapper {
@@ -75,9 +76,9 @@ header {
   justify-content: space-around;
 }
 header .header__photo {
-  width: 150px;
-  height: 150px;
-  margin: 30px;
+  width: 200px;
+  height: 200px;
+  margin: 60px 30px 30px 60px;
   border-radius: 50%;
   border: solid 3px rgb(24, 71, 24);
 }
@@ -112,18 +113,17 @@ h1 {
 }
 
 .header-icon {
-  margin: 80px 40px 40px 40px;
+  margin: 130px 60px 40px 40px;
   /*& p {
     margin: 0;
     line-height: 16px;
   }*/
 }
 
-.header__text-rqth {
-  color: white;
+/*.header__text-rqth {
+  color: $secondary;
   margin-top: 20px;
-}
-
+}*/
 .separation__box {
   width: 99%;
   display: flex;
@@ -253,7 +253,7 @@ h1 {
 }
 .card__title-box .behind__title {
   font-size: 16px;
-  padding: 10px 0 0 100px;
+  /*padding: 10px 0 0 100px;*/
 }
 
 .behind__card {
@@ -285,7 +285,7 @@ h1 {
   justify-content: space-around;
 }
 .card__box .card {
-  width: 170px;
+  width: 370px;
   margin: 10px;
   background-color: #a6a6a6;
   box-shadow: 5px -5px 5px #bfbfbf;
@@ -394,10 +394,10 @@ footer {
 }
 
 .spinloader {
-  height: 100%;
   min-width: 360px;
-  max-width: 1240px;
-  /* min-height: 600px; */
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
   background: #f2f2f2;
   position: absolute;
   z-index: 1000;
