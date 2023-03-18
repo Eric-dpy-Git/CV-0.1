@@ -6,16 +6,17 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
   & .header__photo {
     width: 200px;
     height: 200px;
-    margin: 60px 30px 30px 60px;
+    margin: 60px auto;
     border-radius: 50%;
     border: solid 3px $green;
   }
+
   & .header__box {
-    max-width: 550px;
-    margin: 25px 90px 25px 90px;
+    margin: 105px 90px 25px 90px;
   }
 }
 
@@ -51,6 +52,7 @@ h1 {
     line-height: 16px;
   }*/
 }
+
 /*.header__text-rqth {
   color: $secondary;
   margin-top: 20px;
