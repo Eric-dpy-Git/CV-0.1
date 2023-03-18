@@ -5,6 +5,7 @@ body {
   margin: 0 auto;
   padding: 0;
 }
+
 .page__wrapper {
   background-color: $primary;
 }
@@ -18,36 +19,47 @@ body {
 .fa-html5 {
   color: $html5;
 }
+
 .fa-css3-alt {
   color: $css3;
 }
+
 .fa-sass {
   color: $sass;
 }
+
 .fa-chart-line {
   color: $seo;
 }
+
 .fa-universal-access {
   color: $green;
 }
+
 .fa-js-square {
   color: $js;
 }
-.fa-arrow-circle-left{
+
+.fa-arrow-circle-left {
   color: $green;
 }
+
 .fa-bootstrap {
   color: $bootstrap;
 }
+
 .fa-node-js {
   color: $node;
 }
+
 .fa-database {
   color: $bdd;
 }
+
 .fa-vuejs {
   color: $vue;
 }
+
 .fa-github-square {
   color: $black;
   margin-bottom: 20px;

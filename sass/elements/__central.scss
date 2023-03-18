@@ -1,5 +1,12 @@
 .section__central {
   background-color: $primary;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 320px;
+  min-height: 400px;
+
+
+
 }
 
 .car__box-wrapper {
@@ -16,23 +23,24 @@
   margin: 0 auto;
   background-color: $secondary;
   box-shadow: 5px 5px 5px $primaryDark;
+
   & .behind__title {
     font-size: 16px;
     /*padding: 10px 0 0 100px;*/
   }
 }
 
-.behind__card {
-  position: absolute;
-  margin: 0 auto;
-  width: 90%;
-  left: 10px;
-  right: 10px;
-  height: 160px;
-  background-color: $secondary;
-  box-shadow: 5px 5px 5px $primaryDark;
-  z-index: 1;
-}
+// .behind__card {
+//   position: absolute;
+//   margin: 0 auto;
+//   width: 90%;
+//   left: 10px;
+//   right: 10px;
+//   height: 160px;
+//   background-color: $secondary;
+//   box-shadow: 5px 5px 5px $primaryDark;
+//   z-index: 1;
+// }
 
 .opLogo {
   width: 50px;
@@ -44,22 +52,31 @@
 .central__box {
   margin: 0;
 }
+
 .card__box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 
-  & .card {
-    width: 370px;
-    margin: 10px;
-    background-color: $primaryDark;
-    box-shadow: 5px -5px 5px $primary;
-    text-align: center;
-    z-index: 2;
-  }
+
 }
+
+.card {
+  width: 370px;
+  margin: 10px;
+  background-color: $primaryDark;
+  box-shadow: 5px -5px 5px $primary;
+  text-align: center;
+  z-index: 2;
+}
+
 .nav__box {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 0 auto;
+}
+
+.icon-central {
+  margin: 20px;
 }
