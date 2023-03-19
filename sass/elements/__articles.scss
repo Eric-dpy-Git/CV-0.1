@@ -5,26 +5,38 @@
   justify-content: space-around;
   margin: 0 auto;
   text-align: center;
+
   & .article__card {
     width: 32%;
     min-width: 340px;
     min-height: 450px;
     margin: 5px auto;
     background-color: $secondary;
+    text-align: justify;
     box-shadow: 5px 5px 5px $primaryDark;
+
     & .list__title {
       padding: 20px;
       font-weight: bold;
       font-size: 20px;
+
       & .list__item {
         list-style-type: "-";
         font-weight: lighter;
         text-align: start;
+
         & .list__p {
           margin: 20px;
           font-size: 16px;
+          text-align: justify;
         }
       }
     }
   }
+}
+
+.article__card-formCert {
+  background-color: $primaryLight;
+  width: 1024px;
+  height: 1024px;
 }

@@ -9,7 +9,7 @@ body {
 }
 
 .page__wrapper {
-  background-color: #bfbfbf;
+  background-color: #919293;
 }
 
 .fab,
@@ -75,11 +75,15 @@ body {
   color: rgb(52, 140, 187);
 }
 
+.bord {
+  border-radius: 50%;
+}
+
 header {
   max-width: 1440px;
   min-width: 320px;
   min-height: 200px;
-  background-color: #bfbfbf;
+  background-color: #919293;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -87,12 +91,16 @@ header {
 header .header__photo {
   width: 200px;
   height: 200px;
-  margin: 60px auto;
+  margin: 80px 60px 20px 60px;
   border-radius: 50%;
   border: solid 3px rgb(24, 71, 24);
 }
 header .header__box {
   margin: 105px 90px 25px 90px;
+}
+
+.header__photo-box {
+  margin: 0 auto;
 }
 
 .header__title,
@@ -116,6 +124,8 @@ h1 {
 
 .header__text {
   color: white;
+  text-align: left;
+  margin: 0px 70px;
   font-size: 1em;
   font-weight: bold;
 }
@@ -188,7 +198,7 @@ h1 {
 
 .name__font {
   font-size: 30px;
-  color: rgb(52, 140, 187);
+  color: rgb(24, 71, 24);
   text-align: center;
   position: relative;
   padding: 0 0 0 6px;
@@ -223,6 +233,7 @@ h1 {
   min-height: 450px;
   margin: 5px auto;
   background-color: white;
+  text-align: justify;
   box-shadow: 5px 5px 5px #a6a6a6;
 }
 .article__box .article__card .list__title {
@@ -238,10 +249,17 @@ h1 {
 .article__box .article__card .list__title .list__item .list__p {
   margin: 20px;
   font-size: 16px;
+  text-align: justify;
+}
+
+.article__card-formCert {
+  background-color: #f2f2f2;
+  width: 1024px;
+  height: 1024px;
 }
 
 .section__central {
-  background-color: #bfbfbf;
+  background-color: white;
   display: flex;
   flex-wrap: wrap;
   min-width: 320px;
@@ -255,11 +273,12 @@ h1 {
 }
 
 .card__title-box {
+  min-width: 320px;
   margin: 0 auto;
   text-align: center;
   background-color: #f2f2f2;
   border-radius: 15px;
-  box-shadow: 5px 5px 5px #a6a6a6;
+  box-shadow: 10px 10px 10px #a6a6a6;
 }
 .card__title-box .behind__title {
   font-size: 16px;
@@ -282,7 +301,8 @@ h1 {
   width: 370px;
   margin: 10px;
   background-color: #a6a6a6;
-  box-shadow: 5px -5px 5px #bfbfbf;
+  box-shadow: 10px 10px 10px #7b7a7a;
+  border-radius: 25px;
   text-align: center;
   z-index: 2;
 }

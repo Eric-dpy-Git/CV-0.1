@@ -1,12 +1,9 @@
 .section__central {
-  background-color: $primary;
+  background-color: $secondary;
   display: flex;
   flex-wrap: wrap;
   min-width: 320px;
   min-height: 400px;
-
-
-
 }
 
 .car__box-wrapper {
@@ -16,11 +13,12 @@
 }
 
 .card__title-box {
+  min-width: 320px;
   margin: 0 auto;
   text-align: center;
   background-color: $primaryLight;
   border-radius: 15px;
-  box-shadow: 5px 5px 5px $primaryDark;
+  box-shadow: 10px 10px 10px $primaryDark;
 
   & .behind__title {
     font-size: 16px;
@@ -65,7 +63,8 @@
   width: 370px;
   margin: 10px;
   background-color: $primaryDark;
-  box-shadow: 5px -5px 5px $primary;
+  box-shadow: 10px 10px 10px $primaryXtraDark;
+  border-radius: 25px;
   text-align: center;
   z-index: 2;
 }
