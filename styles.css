@@ -91,7 +91,7 @@ header {
 header .header__photo {
   width: 200px;
   height: 200px;
-  margin: 80px 60px 20px 60px;
+  margin: 80px 50px 20px 50px;
   border-radius: 50%;
   border: solid 3px rgb(24, 71, 24);
 }
