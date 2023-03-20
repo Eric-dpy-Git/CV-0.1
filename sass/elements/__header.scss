@@ -5,7 +5,7 @@ header {
   background-color: $primary;
   display: flex;
   flex-wrap: wrap;
-  // justify-content: space-around;
+  justify-content: space-around;
 
   & .header__photo {
     width: 200px;
@@ -16,7 +16,7 @@ header {
   }
 
   & .header__box {
-    margin: 105px 50px
+    margin: 105px 120px 20px 40px
   }
 }
 
@@ -27,7 +27,7 @@ header {
 .header__title,
 .header__separation,
 .header__text {
-  text-align: center;
+  text-align: left;
 }
 
 h1 {
@@ -46,7 +46,7 @@ h1 {
 .header__text {
   color: $secondary;
   text-align: left;
-  margin: 0px 70px;
+  // margin: 0px 70px;
   font-size: 1em;
   font-weight: bold;
 }
