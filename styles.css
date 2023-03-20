@@ -80,13 +80,12 @@ body {
 }
 
 header {
-  max-width: 1440px;
+  max-width: 100%;
   min-width: 320px;
   min-height: 200px;
   background-color: #919293;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 header .header__photo {
   width: 200px;
@@ -96,7 +95,7 @@ header .header__photo {
   border: solid 3px rgb(24, 71, 24);
 }
 header .header__box {
-  margin: 105px 50px auto;
+  margin: 105px 50px;
 }
 
 .header__photo-box {
