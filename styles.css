@@ -96,7 +96,7 @@ header .header__photo {
   border: solid 3px rgb(24, 71, 24);
 }
 header .header__box {
-  margin: 105px 90px 25px 60px;
+  margin: 105px 50px auto;
 }
 
 .header__photo-box {
