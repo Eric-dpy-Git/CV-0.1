@@ -15,6 +15,7 @@ body {
 a {
   color: black;
   text-decoration: none;
+  -webkit-text-decoration: none;
 }
 
 .fab,
@@ -512,7 +513,7 @@ footer {
     opacity: 0;
   }
 }
-.header-icon-anime:hover {
+.icon-anime:hover {
   transform: rotateZ(360deg);
   transition-duration: 400ms;
   opacity: 0.2;
