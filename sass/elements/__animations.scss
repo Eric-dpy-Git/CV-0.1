@@ -2,7 +2,6 @@
   min-width: 360px;
   max-width: 1440px;
   margin: 0 auto;
-
   padding: 0;
   background: $primaryLight;
   position: absolute;
@@ -119,10 +118,11 @@
 }
 
 //------------------------------------------------------
-.icon-anime:hover {
-  transform: rotateZ(360deg);
+.icon-central:hover {
+  transform: scale(1.6);
+  // transform: rotateZ(360deg);
   transition-duration: 400ms;
-  opacity: 0.2;
+  opacity: 2;
 }
 
 .nav__box-anime:hover {

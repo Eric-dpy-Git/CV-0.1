@@ -310,6 +310,15 @@ h1 {
 
 .icon-central {
   margin: 30px;
+  box-shadow: 5px 5px 5px #a6a6a6;
+}
+
+.first__section-page {
+  height: 20px;
+}
+
+.section__central {
+  height: 1000px;
 }
 
 .box__wrapper {
@@ -513,10 +522,10 @@ footer {
     opacity: 0;
   }
 }
-.icon-anime:hover {
-  transform: rotateZ(360deg);
+.icon-central:hover {
+  transform: scale(1.6);
   transition-duration: 400ms;
-  opacity: 0.2;
+  opacity: 2;
 }
 
 .nav__box-anime:hover {
