@@ -1,5 +1,6 @@
 .section__central {
   background-color: $secondary;
+  border: solid 6px $primary;
   display: flex;
   flex-wrap: wrap;
   min-width: 320px;

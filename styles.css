@@ -95,8 +95,8 @@ header {
   justify-content: space-around;
 }
 header .header__photo {
-  width: 200px;
-  height: 200px;
+  width: 240px;
+  height: 220px;
   margin: 40px 50px 20px 50px;
   border-radius: 50%;
   border: solid 3px rgb(24, 71, 24);
@@ -254,6 +254,7 @@ h1 {
 
 .section__central {
   background-color: white;
+  border: solid 6px #919293;
   display: flex;
   flex-wrap: wrap;
   min-width: 320px;
