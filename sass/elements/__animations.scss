@@ -130,3 +130,20 @@
   transition-duration: 400ms;
   opacity: 0.8;
 }
+
+// .list__box {
+//   transform: scale(1.15);
+//   transition-duration: 400ms;
+//   transition: box-shadow 1s;
+//   box-shadow: 10px black;
+// }
+
+.list__box:hover {
+  transform: scale(0.9);
+  transition-duration: 1s;
+  font-weight: bolder;
+
+  // .list__item {
+  //   font-weight: bolder;
+  // }
+}

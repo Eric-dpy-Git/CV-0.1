@@ -533,4 +533,10 @@ footer {
   transform: scale(1.5);
   transition-duration: 400ms;
   opacity: 0.8;
+}
+
+.list__box:hover {
+  transform: scale(0.9);
+  transition-duration: 1s;
+  font-weight: bolder;
 }/*# sourceMappingURL=styles.css.map */
