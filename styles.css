@@ -538,5 +538,7 @@ footer {
 .list__box:hover {
   transform: scale(0.9);
   transition-duration: 1s;
+}
+.list__box:hover .date__item {
   font-weight: bolder;
 }/*# sourceMappingURL=styles.css.map */
