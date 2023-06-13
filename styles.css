@@ -18,6 +18,10 @@ a {
   -webkit-text-decoration: none;
 }
 
+.footer_link {
+  color: white;
+}
+
 .fab,
 .fas {
   font-size: 50px;
@@ -527,6 +531,7 @@ footer {
   transform: scale(1.6);
   transition-duration: 400ms;
   opacity: 2;
+  content: "Text affiche lors du hover";
 }
 
 .nav__box-anime:hover {
@@ -541,4 +546,9 @@ footer {
 }
 .list__box:hover .date__item {
   font-weight: bolder;
+}
+
+.footer_link:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
 }/*# sourceMappingURL=styles.css.map */

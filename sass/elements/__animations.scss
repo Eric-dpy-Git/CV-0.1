@@ -123,6 +123,7 @@
   // transform: rotateZ(360deg);
   transition-duration: 400ms;
   opacity: 2;
+  content: 'Text affiche lors du hover';
 }
 
 .nav__box-anime:hover {
@@ -147,4 +148,9 @@
   }
 
 
+}
+
+.footer_link:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
 }
