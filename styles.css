@@ -556,6 +556,7 @@ footer {
 .tooltip {
   position: relative;
   display: inline-block;
+  border-bottom: 0px dotted;
 }
 
 .tooltip .tooltiptext {
