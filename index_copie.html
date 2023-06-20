@@ -5,12 +5,15 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://eric-duprey.fr/styles.css" />
   <script src="https://kit.fontawesome.com/2db2f9c310.js" crossorigin="anonymous"></script>
+  <script src="https://eric-duprey.fr/app.js"></script>
+
   <title>CV Eric Duprey</title>
 </head>
 
 <body>
+
   <div class="page__wrapper">
     <div class="spinloader">
       <div class="sk-folding-cube">
@@ -222,7 +225,7 @@
                 <a href="https://github.com/Eric-dpy-Git/EricDuprey_2_10122020.git " target="_blank"
                   rel="noreferrer noopener">
                   <div class="icon-central tooltip"><i class="fab fa-html5"></i>
-                    <span class="tooltiptext">Mon premier projet Html5 ici :</span>
+                    <!-- <span class="tooltiptext">Mon premier projet Html5 ici :</span> -->
                   </div>
                 </a>
                 <!--rel="noreferrer noopener" = is for security to prevent a type of phishing known as tabnabbing.-->
@@ -285,11 +288,16 @@
               <div class="nav__box">
 
                 <div class="icon-central tooltip"><i class="fab fa-windows"></i>
-                  <!-- <span class="tooltiptext">Travaille sur Windows 10, possède Windows 11 et apprend Windows
-                    Server</span> -->
+                  <div class="tooltiptext-1">
+                    <!-- <p id="tooltip-text">Travaille sur Windows 10, possède Windows 11 et apprend Windows Server</p> -->
+
+                  </div>
                 </div>
-                <div class="icon-central tooltip"><i class="fab fa-linux"></i>
-                  <!-- <span class="tooltiptext">Installe des Ubuntu pour production, possède Debian et Kali</span> -->
+
+                <div class="icon-central" id="tooltip-button"><i class="fab fa-linux"></i></div>
+                <div class="tooltip-container">
+                  <p id="tooltip-text">Installe Ubuntu pour production, possède Debian et Kali</p>
+
                 </div>
                 <div class="icon-central tooltip"><i class="fab fa-apple"></i>
                   <!-- <span class="tooltiptext">Ma machine </span> -->
@@ -486,7 +494,17 @@
     </footer>
 
     <!-- footer end -->
+    <div class="tooltip">Hover over me
+      <span class="tooltiptext">Tooltip text</span>
+    </div>
+    <!-- footer end -->
+
+
+
   </div>
+
+
+
 </body>
 
 </html>
